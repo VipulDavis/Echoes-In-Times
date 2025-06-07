@@ -2,7 +2,36 @@
 
 
 
+# File Naming Conventions
 
+## Images Folder
+
+### Portfolio Images
+- `photo1.jpg` through `photo8.jpg` (main portfolio grid)
+- `portrait.jpg` (about page headshot)
+- `project1.jpg` through `project3.jpg` (featured projects)
+- `behind1.jpg` through `behind3.jpg` (behind the scenes)
+
+## Icons Folder
+- `favicon.png` (website favicon)
+- `instagram.svg` (Instagram icon)
+- `linkedin.svg` (LinkedIn icon)
+- `facebook.svg` (Facebook icon)
+- `twitter.svg` (Twitter icon)
+
+## Fonts Folder (if hosting locally)
+- `playfair-display-regular.woff2`
+- `playfair-display-700.woff2`
+- `inter-regular.woff2`
+- `inter-500.woff2`
+- `inter-700.woff2`
+- `poppins-regular.woff2`
+- `poppins-500.woff2`
+- `poppins-700.woff2`
+
+Note: The current implementation uses Google Fonts through CDN links rather than locally hosted font files, so you don't actually need to download these files unless you want to host the fonts locally for performance or offline capabilities.
+
+The filenames in the HTML/CSS code are already properly set up, so as long as you name your image files according to the pattern above (photo1.jpg, photo2.jpg, etc.), everything will work correctly.
 
 # Recommendations for Images, Assets, and Fonts
 
